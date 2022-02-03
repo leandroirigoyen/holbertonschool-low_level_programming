@@ -1,4 +1,4 @@
-#include <libc6-dev-i386.h>
+#include <stdio.h>
 /**
  * main - main
  * Return: el return tiene que dar 0
