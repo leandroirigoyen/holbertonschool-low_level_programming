@@ -6,21 +6,44 @@
  *   * Return: algo
  *    */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <ctype.h>
+/**
+ *  * main - main
+ *   * Return: algo
+ *    */
+
 int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-
-int str_upr(char *cstr)
+int x;
+char sl = '\n';
+for (x = 'a'; x <= 'z'; x++)
 {
-char *str = cstr;
-for (; *str; str++)
-{
-if (isalpha(*str))
-*str += 'a' - 'A';
+putchar(x);
 }
+putchar(sl);
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <ctype.h>
+/**
+ *  * main - main
+ *   * Return: algo
+ *    */
+
+int main(void)
+{
+int x;
+char sl = '\n';
+for (x = 'a'; x <= 'z'; x++)
+{
+putchar(x);
+}
+for (x = 'A'; x <= 'Z'; x++)
+{	
+putchar(sl);
 }
 return (0);
 }
