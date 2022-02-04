@@ -9,7 +9,6 @@
 
 int main(void)
 {
-int n;
 int x;
 for (x = 'a'; x <= 'z'; x++)
 {
