@@ -10,12 +10,12 @@ int main(void)
 
 {
 
-int ch;
+int i;
 char sl = '\n';
 
-for (ch = 0; ch < 10; ch++)
+for (i = 0; i < 10; i++)
 {
-putchar(ch + '0');
+putchar(i % 10 + '0');
 }
 
 putchar(sl);

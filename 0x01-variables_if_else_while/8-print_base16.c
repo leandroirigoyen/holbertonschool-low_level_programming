@@ -10,15 +10,20 @@ int main(void)
 
 {
 
-int ch;
-char sl = '\n';
+int i;
+char ch;
 
-for (ch = 0; ch < 10; ch++)
+for (i = 0; i < 10; i++)
 {
-putchar(ch + '0');
+putchar(i % 10 + '0');
 }
 
-putchar(sl);
+for (ch = 'a'; ch < 'g'; ch++)
+{
+putchar(ch);
+}
+
+putchar('\n');
 
 return (0);
 }
