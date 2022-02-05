@@ -7,7 +7,7 @@
  * Return: algo
  */
 int main(void)
-	
+
 {
 
 int i;
