@@ -11,7 +11,7 @@ int n;
 for (n = 0; n < 10; n++)
 {
 putchar(n);
-if (n != 10)
+if (n < 9)
 {
 putchar(',');
 putchar(' ');
