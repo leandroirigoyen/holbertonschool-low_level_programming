@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- *  * main - main
- *   * Return: algo
- *    */
+ * main - main
+ * Return: algo
+ */
 int main(void)
 	
 {
