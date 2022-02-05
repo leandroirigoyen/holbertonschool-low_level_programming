@@ -11,20 +11,15 @@ int main(void)
 {
 
 int ch;
-char sl = '\n';
 
-for (ch = 'a'; ch <= 'z'; ch++)
+for (ch = 'z'; ch >= 'a'; ch--)
 {
-if (ch == 'q' || ch == 'e')
-{}
-else
-{
+
 putchar(ch);
-}
 
 }
 
-putchar(sl);
+putchar('\n');
 
 return (0);
 }
