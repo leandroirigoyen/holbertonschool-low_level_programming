@@ -4,7 +4,6 @@
  * Return: algo
  */
 
-
 int main(void)
 {
 int n;
