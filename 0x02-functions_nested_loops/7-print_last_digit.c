@@ -7,11 +7,11 @@
  */
 
 int print_last_digit(long int n)
-	
+
 {
 if (n > 0)
-{	
-_putchar((n % 10) + '0');	
+{
+_putchar((n % 10) + '0');
 return (n % 10);
 }
 else
