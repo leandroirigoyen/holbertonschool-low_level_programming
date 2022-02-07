@@ -1,23 +1,22 @@
-#include <stdlib.h>
-#include "_putchar.c"
+#include "main.h"
 
 
 /**
- * main - check the code
+ * print_alphabet_x10 - print alphabet x10
  *
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-char ch;
+char c;
 int i;
 
 for (i = 0; i < 10; i++)
 {
-for (ch = 'a'; ch <= 'z'; ch++)
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar (ch);
+_putchar(c);
 
 
 }
@@ -25,5 +24,4 @@ _putchar('\n');
 }
 
 
-return (0);
 }
