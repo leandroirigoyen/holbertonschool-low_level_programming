@@ -5,18 +5,23 @@
  */
 void jack_bauer(void)
 {
-int hours = 0;
-int minutes = 0;
+int i, j;
 
-while(hours <= 23)
-{
-while(minutes <= 59) 
-{
-_putchar("%02d:%02d\n", hours, minutes);
-minutes++;
-}
-hours++;
-minutes = 0
-}
+i = 0;
 
+while (i < 24)
+{
+j = 0;
+while (j < 60)
+{
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(':');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
+_putchar('\n');
+j++;
+}
+i++;
+}
 }
