@@ -1,6 +1,5 @@
 #include <stdlib.h>
-#include "main.h"
-
+#include "main.c"
 
 /**
  * main - check the code
@@ -14,7 +13,7 @@ char ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-_putchar (ch);
+_putchar(ch);
 
 }
 
