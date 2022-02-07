@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
   * main - main
   * Return: 1 if is lowercase if it's not print 0
