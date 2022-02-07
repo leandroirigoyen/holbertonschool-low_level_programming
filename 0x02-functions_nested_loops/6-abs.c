@@ -9,7 +9,7 @@
 int _abs(int n)
 {
 
-n = _abs(n);
+n = abs(n);
 return (n);
 
 }
