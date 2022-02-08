@@ -6,8 +6,9 @@
 
 void times_table(void)
 {
-int j;
+
 int i;
+int j;
 int k;
 
 i = 0;
@@ -41,6 +42,5 @@ while (i < 10)
         }
         _putchar('\n');
         i++;
-
 }
--- INSERT --
+}
