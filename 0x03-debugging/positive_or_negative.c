@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main
+ * positive_or_negative - main
+ * @n: var
  * Return: si da 0 esta bien
  */
-int main(void)
+void positive_or_negative(int n)
 {
-int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
@@ -24,5 +24,4 @@ else
 {
 printf("%d is zero\n", n);
 }
-return (0);
 }
