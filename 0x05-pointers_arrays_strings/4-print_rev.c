@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
-int l;
-l = strlen((s) - 1);
-_putchar(l);
+int reverse;
+reverse = strlen((s) - 1);
+_putchar(reverse);
 }
