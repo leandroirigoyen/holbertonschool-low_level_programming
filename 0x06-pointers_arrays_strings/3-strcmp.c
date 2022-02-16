@@ -1,10 +1,11 @@
-#include "main.h"
+i#include "main.h"
 #include <string.h>
 /**
  * _strcmp - compare
- * @s1: 1
- * @s2 2
- * Return :0
+ * @_strcmp - function
+ * @s1: pointer 1
+ * @s2: pointer 2
+ * Return: 0
  */
 int _strcmp(char *s1, char *s2)
 {
