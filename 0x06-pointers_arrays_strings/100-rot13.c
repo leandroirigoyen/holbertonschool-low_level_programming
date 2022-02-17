@@ -12,10 +12,10 @@ char *rot13(char *str)
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (j = 0; str[i]; j++)
+	for (i = 0; str[i]; i++)
 	{
 
-	for (j == 0, j < 52, j++)
+	for (j = 0; j < 52; j++)
 	{
 		if (str[i] == a[j])
 		{
