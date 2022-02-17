@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rot13 - rot
- * @c: pointer
+ * @str: pointer
  * Return: 0
  */
 char *rot13(char *str)
