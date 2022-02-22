@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strpbkr - strpbkr
+ * _strpbrk - strpbkr
  * @s: string s
  * @accept: string accept
  * Return: pointer to byte in s
