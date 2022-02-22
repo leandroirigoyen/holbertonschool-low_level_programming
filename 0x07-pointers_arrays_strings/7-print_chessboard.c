@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_chessboard
+ * print_chessboard - print chessboard
  * @a: pointer array 8
  * Return: 0
  */
