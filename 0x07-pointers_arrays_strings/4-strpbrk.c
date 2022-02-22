@@ -8,13 +8,23 @@
  * Return: pointer to byte in s
  */
 char *_strpbrk(char *s, char *accept)
+
+	char *_strpbrk(char *s, char *accept)
 {
-	char s1[s] = "%c"
-	char s2[accept] = "%c"
+	int i, j;
 
-	char *result;
+	for (i = 0; *s != '\0'; i++)
+	{
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (*s == accept[j])
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
 
-	result = strpbrk(s, accept);
-
-	return(0);
+	return (NULL);
+}
 }
