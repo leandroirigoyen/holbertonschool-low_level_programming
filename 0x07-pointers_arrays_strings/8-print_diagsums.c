@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-#include "holberton.h"
 
 /**
  * print_diagsums - print diagsum
