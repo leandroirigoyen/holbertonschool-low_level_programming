@@ -8,8 +8,6 @@
  * Return: pointer to byte in s
  */
 char *_strpbrk(char *s, char *accept)
-
-	char *_strpbrk(char *s, char *accept)
 {
 	int i;
 	int j;
