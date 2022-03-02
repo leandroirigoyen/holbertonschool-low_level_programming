@@ -19,10 +19,10 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL)
 		return (s2);
 
-	if else (s2 == NULL)
+	if (s2 == NULL)
 		return (s1);
 	
-	if else (s1 && s2 == NULL)
+	if (s1 && s2 == NULL)
 		return (rtn);
 
 
