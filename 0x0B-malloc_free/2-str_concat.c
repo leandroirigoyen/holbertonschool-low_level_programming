@@ -21,9 +21,10 @@ char *str_concat(char *s1, char *s2)
 
 	if (s2 == NULL)
 		return (s1);
-	
-	if (s1 && s2 == NULL)
-		return (rtn);
+
+
+	if (rtn == NULL)
+		return ("");
 
 
 	for (p = 0; (rtn[q] = s1[p]) != '\0'; ++p, ++q)
