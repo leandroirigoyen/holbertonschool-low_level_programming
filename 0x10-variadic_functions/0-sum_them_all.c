@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * sum_them_all - Returns the sum 
+ * sum_them_all - Returns the sum
  * @n: The number of paramters passed to the function.
- * @...: A variable number 
+ * @...: A variable number
  * Return: 0
  */
 int sum_them_all(const unsigned int n, ...)
