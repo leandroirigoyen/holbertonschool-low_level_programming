@@ -1,23 +1,23 @@
 #include "lists.h"
 #include <stdlib.h>
-/** free_listint2 - Free a list
- * @head: pointer to the address head of the list.
- * Description: head to NULL.
+/**
+ * get_nodeint_at_index - Locates a given node of list
+ * @head: A pointer to the head of the list
+ * @index: indices start at 0
+ * Return: if not exist = NULL.
+ *         if exist = node.
  */
-void free_listint2(listint_t **head)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-        listint_t *tmp;
+	unsigned int node;
 
-        if (head == NULL)
-                return;
+	for (node = 0; node < index; node++)
+	{
+		if (head == NULL)
+			return (NULL);
 
-        while (*head)
-        {
-                tmp = (*head)->next;
-                free(*head);
-                *head = tmp;
-        }
+		head = head->next;
+	}
 
-        head = NULL;
+return (head);
 }
-
